@@ -7,7 +7,7 @@ use Time::HiRes (gettimeofday);
 
 
 # The name of the remote control from lircd.conf
-$lirc_remote_name = "lircd.conf";
+$lirc_remote_name = "lircd";
 
 # which host is lirc running ? (make sure it has --listen)
 $lirc_host = "0.0.0.0:8765";
