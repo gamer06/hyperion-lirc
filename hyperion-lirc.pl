@@ -7,10 +7,10 @@ use Time::HiRes (gettimeofday);
 
 
 # The name of the remote control from lircd.conf
-$lirc_remote_name = "aldi-pool-leds";
+$lirc_remote_name = "/home/osmc/lircd.conf";
 
 # which host is lirc running ? (make sure it has --listen)
-$lirc_host = "loungepi.home";
+$lirc_host = "0.0.0.0:8765";
 
 # Which host and port is hyperion running on?
 $hyperion_host = "loungepi.home";
